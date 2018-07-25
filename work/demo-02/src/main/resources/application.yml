@@ -1,0 +1,10 @@
+com:
+  lyusmile:
+    name: zhaohanyang
+    age: 27
+  
+  
+spring:
+  profiles:
+    active:
+    - dev  
