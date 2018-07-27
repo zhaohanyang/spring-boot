@@ -1,19 +1,12 @@
-package com.layusmile.entity;
+package com.lyusmile.entity;
 
 import java.math.BigDecimal;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 /**
  * 	汽车实体类
  *  @author zhaohanyang
  */
-@Entity
 public class Car {
-	@Id 
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;//主键ID
 	
 	private String brand; //品牌
